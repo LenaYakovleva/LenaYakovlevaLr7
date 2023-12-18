@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="your, keywords, here">
+  <title>Filter Posts</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="input-block">
+      <h2>Фильтрация по имени</h2>
+      <div class="input-container">
+        <input type="text" id="filterInput" placeholder="Введите заголовок...">
+        <button onclick="filterPosts()">Фильтровать</button>
+      </div>
+    </div>
+
+    <div class="post-block">
+      <div class="post-container" id="postContainer">
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
